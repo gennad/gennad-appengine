@@ -1,0 +1,15 @@
+application: gennadurl
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /static
+  static_dir: static
+
+- url: /.*
+  script: mainpage.py
+
+- url: /*
+  script: 404.py
+
