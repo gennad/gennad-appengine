@@ -1,5 +1,5 @@
-application: gennadurl
-version: 1
+application: gennad-zlobin
+version: 2
 runtime: python
 api_version: 1
 
