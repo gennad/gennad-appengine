@@ -1,5 +1,5 @@
-application: gennad-zlobin
-version: 2
+application: kittyquotes
+version: 1
 runtime: python
 api_version: 1
 

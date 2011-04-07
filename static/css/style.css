@@ -1,0 +1,40 @@
+blockquote {
+    font: 1.2em/1.6em Georgia, "Times New Roman", Times, serif;
+    width: 400px;
+    background: url(close-quote.gif) no-repeat right bottom;
+    padding-left: 18px;
+    text-indent: -18px;
+}
+
+blockquote:first-letter {
+    background: url(open-quote.gif) no-repeat left top;
+    padding-left: 18px;
+    font: italic 1.4em Georgia, "Times New Roman", Times, serif;
+}
+
+#kitty {
+    width: 300px;
+}
+
+#photo {
+    float: right;
+    margin-right: 150px;
+}
+
+#content {
+    float: left;
+    margin-left: 100px;
+}
+
+#footer {
+    clear: both;
+}
+
+#end_quote {
+    margin-left: 400px;
+}
+
+#header {
+    text-align: center;
+    margin-bottom: 75px;
+}

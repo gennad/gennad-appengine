@@ -1,6 +1,6 @@
 from google.appengine.ext import db
 
-class Subscriber(db.Model):
-    email = db.EmailProperty()
-    name = db.StringProperty()
+class Quote(db.Model):
+    content = db.StringProperty()
     date = db.DateTimeProperty(auto_now_add=True)
+    date_heard = db.DateTimeProperty()
